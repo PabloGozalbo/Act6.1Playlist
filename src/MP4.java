@@ -1,4 +1,4 @@
-public class MP4 implements IPlayList{
+public class MP4 extends DecoradorBase{
     private IPlayList cancion;
 
     public MP4(IPlayList cancion){

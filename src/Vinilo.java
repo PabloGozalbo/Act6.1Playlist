@@ -1,4 +1,4 @@
-public class Vinilo implements IPlayList{
+public class Vinilo extends DecoradorBase{
     private IPlayList cancion;
 
     public Vinilo(IPlayList cancion){
